@@ -1,0 +1,49 @@
+
+header h1 {
+    font-family: impact;
+    color: #333;
+}
+
+
+nav a {
+    text-decoration: none;
+   color: white;
+   font-weight: 400;
+   padding: 10px;
+}
+
+
+nav li:hover {
+    background-color: #496B87;
+    transition: background-color 0.4s ease;
+}
+
+/* font-family: "Anton", sans-serif;
+font-weight: 400;
+font-style: normal; */
+  
+nav{
+    padding-bottom: 5px;
+}
+
+
+
+nav li{
+list-style-type: none;
+padding-top: 10px;
+padding-bottom: 10px;
+border-top: 1px solid #666;
+border-bottom: 1px solid #666;
+width: 15%;
+}
+
+
+h2 {
+    color: #333;
+    font-family: "Anton", sans-serif;
+}
+
+section a {
+    color: #333;
+    font-family: "Anton", sans-serif;
+}
