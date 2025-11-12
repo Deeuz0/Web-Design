@@ -1,0 +1,147 @@
+/* Default styles (Mobile First) */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+}
+
+header, footer {
+    background-color: #d7a144;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 2px  black;
+    color:white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: #666;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+width:100;
+  
+}
+
+nav ul li {
+    display:flex;
+    text-align:center;
+    justify-content: space-around; 
+    border-bottom: 1px solid #666; 
+    margin: 0 10px;
+    padding: 10px 0;
+   
+    
+}
+
+nav a, h1, h2 {
+    color: #666;
+    text-decoration: none;  
+    display: block; 
+}
+
+#wrap {
+    max-width: 90%;
+    margin: auto;
+}
+
+section, aside {
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+footer ul {
+ 
+    display: block; 
+    padding: 10px 0;
+ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+    display:flex;
+    text-align:center;
+    border-bottom: 1px solid white; 
+    color:white;
+    text-align:center;
+    justify-content: space-around; 
+    margin: 0 10px;
+    padding: 10px 0;
+    list-style: none;
+    text-decoration: none;  
+}
+
+/* Medium screen max around 45px */
+/* Medium Screens (min-width: 480px) */
+@media (min-width: 480px) {
+    header, footer {
+        background-color: #254e52;
+    }
+
+    #wrap {
+        max-width: 80%;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        color: #666;
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        justify-content:space-between;
+      display:flex;
+    }
+    
+    nav ul li {
+       border: none;
+        text-align:center;
+        margin: 0 10px;
+
+    
+        
+    }
+    
+    nav a, h1, h2 {
+        color: #666;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin: 0 10px;
+        border-bottom: none;
+        color:white;
+    }
+    }
+
+
+/* Large Screens (min-width: 768px) */
+@media (min-width: 768px) {
+    header, footer {
+        background-color: #BD4932;
+    }
+
+    #wrap {
+        max-width: 60%;
+    }
+
+    section, aside {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+}
